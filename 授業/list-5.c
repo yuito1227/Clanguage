@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(void)
+{
+	int a, b, c;
+	printf("ëÂêl:");
+	scanf("%d",&a);
+	printf("éqãü:");
+	scanf("%d",&b);
+	printf("ã‡äz:");
+	scanf("%d",&c);
+	a*=c;
+	c/=2;
+	if(c % 2){
+		c=c+5;
+	}
+	b*=c;
+	printf("çáåvã‡äz:%dâ~",a+b);
+	return 0;
+}
